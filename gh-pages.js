@@ -4,10 +4,10 @@ ghpages.publish(
   "public", // path to public directory
   {
     branch: "gh-pages",
-    repo: "https://github.com/username/yourproject.git", // Update to point to your repository
+    repo: "https://johnchambers96.github.io/svelte-mortage-calculator.git", // Update to point to your repository
     user: {
-      name: "Your name", // update to use your name
-      email: "Your Email address", // Update to use your email
+      name: "John Chambers", // update to use your name
+      email: "cjohn772@gmail.com", // Update to use your email
     },
   },
   () => {
