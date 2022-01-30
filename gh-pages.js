@@ -1,14 +1,15 @@
 const ghpages = require("gh-pages");
 
 ghpages.publish(
-  "public", // path to public directory
+  "public",
   {
     branch: "gh-pages",
-    repo: "https://johnchambers96.github.io/svelte-mortage-calculator.git", // Update to point to your repository
+    repo: "https://github.com/johnchambers96/svelte-mortgage-calculator.git",
     user: {
-      name: "John Chambers", // update to use your name
-      email: "cjohn772@gmail.com", // Update to use your email
+      name: "John Chambers",
+      email: "cjohn772@gmail.com",
     },
+    dotfiles: true,
   },
   () => {
     console.log("Deploy Complete!");
